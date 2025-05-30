@@ -1,7 +1,7 @@
 clc; close all;
 
 % Caminho da imagem de entrada (na mesma pasta do script)
-imagePath = fullfile(fileparts(mfilename('fullpath')), 'DJI_0444.jpg');
+imagePath = fullfile(fileparts(mfilename('fullpath')), 'Fotos/DJI_0444.jpg');
 
 % Parâmetros principais da imagem e do modelo
 gsd = 0.55;             % Resolução espacial: 0,55 cm/pixel
